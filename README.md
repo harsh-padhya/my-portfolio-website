@@ -66,10 +66,15 @@ The website uses CSS variables for easy customization. Open `css/styles.css` and
 
 ### Images
 
-Replace the placeholder images in the `images` directory with your own:
-- `profile.jpg` - Your profile picture
-- `hero-bg.jpg` - Background for the hero section
-- `project1.jpg`, `project2.jpg`, `project3.jpg` - Project thumbnails
+The website uses URL-based images from online services instead of local image files:
+
+- Profile picture: Using [RandomUsers](https://xsgames.co/randomusers/) service
+- Project images: Using [DummyImage](https://dummyimage.com/) service with custom text and colors
+
+This approach eliminates the need to download and manage image files locally. If you want to use your own images, you can either:
+
+1. Replace the image URLs in the HTML with URLs to your own hosted images
+2. Download images and store them locally in the `images` directory, then update the image paths in the HTML
 
 ## Deployment
 

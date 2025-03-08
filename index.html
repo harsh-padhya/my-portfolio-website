@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Developer Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#hero">Portfolio</a>
+                </div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">John Doe</span></h1>
+                <h2>Backend Developer</h2>
+                <p>Specializing in FastAPI, Django, Flask, AWS, and Microservices</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="Profile Picture" id="profile-image">
+                </div>
+                <div class="about-text">
+                    <p>I am a passionate Backend Developer with 5 years of experience building robust and scalable web applications. My expertise lies in Python frameworks like FastAPI, Django, and Flask, along with AWS cloud services and microservices architecture.</p>
+                    <p>Throughout my career, I've focused on creating efficient, maintainable, and secure backend systems that power modern web applications. I enjoy solving complex problems and continuously learning new technologies to improve my skills.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-user-graduate"></i></span>
+                            <div class="detail-info">
+                                <h3>Education</h3>
+                                <p>B.S. in Computer Science</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-briefcase"></i></span>
+                            <div class="detail-info">
+                                <h3>Experience</h3>
+                                <p>5+ Years in Backend Development</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-map-marker-alt"></i></span>
+                            <div class="detail-info">
+                                <h3>Location</h3>
+                                <p>Remote / Worldwide</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="resume.pdf" class="btn btn-primary" target="_blank">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Backend Frameworks</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <h4>FastAPI</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <h4>Django</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <h4>Flask</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-aws"></i></div>
+                            <h4>AWS</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                            <h4>Docker</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                            <h4>Kubernetes</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h4>PostgreSQL</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h4>MongoDB</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h4>Redis</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Work Experience</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Senior Backend Developer</h3>
+                        <h4>Tech Innovations Inc.</h4>
+                        <p>Lead the development of microservices architecture using FastAPI and AWS. Implemented CI/CD pipelines and containerized applications with Docker and Kubernetes.</p>
+                        <ul>
+                            <li>Designed and implemented RESTful APIs serving 1M+ daily requests</li>
+                            <li>Reduced API response time by 40% through optimization</li>
+                            <li>Mentored junior developers and conducted code reviews</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2019 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>Backend Developer</h3>
+                        <h4>Digital Solutions Ltd.</h4>
+                        <p>Developed and maintained Django applications with PostgreSQL databases. Implemented RESTful APIs and integrated third-party services.</p>
+                        <ul>
+                            <li>Built authentication and authorization systems</li>
+                            <li>Implemented real-time notification features using WebSockets</li>
+                            <li>Optimized database queries improving performance by 30%</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018 - 2019</div>
+                    <div class="timeline-content">
+                        <h3>Junior Web Developer</h3>
+                        <h4>WebTech Solutions</h4>
+                        <p>Worked on Flask applications and RESTful APIs. Collaborated with frontend developers to integrate backend services.</p>
+                        <ul>
+                            <li>Developed and maintained Flask-based web applications</li>
+                            <li>Created data processing pipelines for analytics</li>
+                            <li>Implemented unit and integration tests</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="E-commerce Microservices">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Microservices</h3>
+                        <p>A scalable e-commerce platform built with FastAPI microservices, deployed on AWS using Docker and Kubernetes.</p>
+                        <div class="project-tech">
+                            <span>FastAPI</span>
+                            <span>AWS</span>
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" target="_blank" class="btn btn-sm">View Code</a>
+                            <a href="#" target="_blank" class="btn btn-sm">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Content Management System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Content Management System</h3>
+                        <p>A Django-based CMS with advanced user management, content scheduling, and analytics dashboard.</p>
+                        <div class="project-tech">
+                            <span>Django</span>
+                            <span>PostgreSQL</span>
+                            <span>Redis</span>
+                            <span>Celery</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" target="_blank" class="btn btn-sm">View Code</a>
+                            <a href="#" target="_blank" class="btn btn-sm">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="API Gateway Service">
+                    </div>
+                    <div class="project-content">
+                        <h3>API Gateway Service</h3>
+                        <p>A Flask-based API gateway with rate limiting, authentication, and request routing capabilities.</p>
+                        <div class="project-tech">
+                            <span>Flask</span>
+                            <span>MongoDB</span>
+                            <span>JWT</span>
+                            <span>Redis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" target="_blank" class="btn btn-sm">View Code</a>
+                            <a href="#" target="_blank" class="btn btn-sm">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-more">
+                <a href="https://github.com/" target="_blank" class="btn btn-primary">View More Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:contact@example.com">contact@example.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Remote / Worldwide</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://linkedin.com/in/" target="_blank">linkedin.com/in/johndoe</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Portfolio</h3>
+                    <p>Backend Developer specializing in Python frameworks and cloud services</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 All Rights Reserved | Designed & Developed with ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+</body>
+</html> 

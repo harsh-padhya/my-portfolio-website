@@ -1,0 +1,9 @@
+This directory should contain the following images:
+
+1. profile.jpg - Your profile picture
+2. hero-bg.jpg - Background for the hero section
+3. project1.jpg - Thumbnail for project 1
+4. project2.jpg - Thumbnail for project 2
+5. project3.jpg - Thumbnail for project 3
+
+Please replace these placeholder images with your own images. 
